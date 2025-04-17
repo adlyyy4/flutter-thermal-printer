@@ -1,7 +1,7 @@
 name: thermal_printer_plugin
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/adlyyy4/flutter-thermal-printer
 
 environment:
   sdk: ^3.7.2
