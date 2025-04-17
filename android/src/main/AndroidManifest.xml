@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.thermal_printer_plugin">
+  
+  <!-- Bluetooth permissions -->
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+  
+  <!-- For Android 12 and above -->
+  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+  
+  <!-- For devices with Android < 12 -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
